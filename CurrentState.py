@@ -2,7 +2,7 @@
 # Utilises the OCTAVE-S framework for risk analysis.
 
 import networkx as nx  # For graph creation
-import matplotlib.pyplot as plt  # For graph visualization
+import matplotlib.pyplot as plt  # For graph visualisation
 import json  # To handle and process JSON file
 
 
