@@ -1,6 +1,6 @@
 
 ```
-# Threat Profile Evaluation Tool for Pampered Pets
+## Threat Profile Evaluation Tool for Pampered Pets
 
 ## Introduction
 
@@ -64,11 +64,4 @@ The tool's core functionalities are broken down into separate functions:
 
 - [Matplotlib documentation](https://matplotlib.org/stable/contents.html)
 
-## General Comments
-
-- Ensure the JSON file's structure is consistent with the expected format to avoid errors.
-
-- The script is modular, enabling easy expansion or modifications in the future.
 ```
-
-You can copy and paste this Markdown-formatted content into your GitHub repository's README file, and it will display properly on GitHub.
