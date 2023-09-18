@@ -1,53 +1,74 @@
-# Pampered-Pets-Threat-Profile
-Python Application that can accept an attack tree specification
-This tool has been developed to assist 'Pampered Pets' in evaluating their threat profile, relying on the principles of the OCTAVE-S framework for risk analysis. The script analyses the threat landscape based on probability and impact scores, then visualises it in an easy-to-understand format.
 
-Prerequisites
-Python 3.x installed.
+```
+# Threat Profile Evaluation Tool for Pampered Pets
 
-The following Python libraries: networkx, matplotlib, and json. These can be installed using pip:
+## Introduction
 
+This tool has been developed to assist 'Pampered Pets' in evaluating their threat profile, relying on the principles of the OCTAVE-S framework for risk analysis. The script analyzes the threat landscape based on probability and impact scores, then visualizes it in an easy-to-understand format.
 
+## Prerequisites
 
+- Python 3.x installed.
+
+- The following Python libraries: networkx, matplotlib, and json. You can install these using pip:
+
+```bash
 pip install networkx matplotlib
-Setup & Installation
-Clone or download the repository to your local machine.
+```
 
-Navigate to the directory where the tool is located.
+## Setup & Installation
 
-Ensure the data/current.json file is in the correct directory and contains the threat profile in the required JSON format.
+1. Clone or download the repository to your local machine.
 
-Running the Tool
-Navigate to the directory containing the THREAT_PROFILE.py script. Run the following command:
+2. Navigate to the directory where the tool is located.
 
+3. Ensure the `data/current.json` file is in the correct directory and contains the threat profile in the required JSON format.
 
+## Running the Tool
 
+Navigate to the directory containing the `THREAT_PROFILE.py` script. Run the following command:
+
+```bash
 python THREAT_PROFILE.py
-Upon execution, the tool will read the data from data/current.json, process the threat details, and visualise the threat landscape.
+```
 
-Understanding the Output
-The script produces a graphical representation of the threat landscape. Nodes represent threats, and edges connect them to their relevant categories. The colour-coding is as follows:
+Upon execution, the tool will read the data from `data/current.json`, process the threat details, and visualize the threat landscape.
 
-Red: Highest risk threats based on Probability x Impact score.
+## Understanding the Output
 
-Orange: Medium risk threats.
+The script produces a graphical representation of the threat landscape. Nodes represent threats, and edges connect them to their relevant categories. The color-coding is as follows:
 
-Green: Lower risk threats.
+- Red: Highest risk threats based on Probability x Impact score.
 
-Design & Structure
+- Orange: Medium risk threats.
+
+- Green: Lower risk threats.
+
+## Design & Structure
+
 The tool's core functionalities are broken down into separate functions:
 
-load_attack_tree_from_json: Loads the threat data from a JSON file.
+- `load_attack_tree_from_json`: Loads the threat data from a JSON file.
 
-calculate_pi_score: Calculates the Probability x Impact score for threats.
+- `calculate_pi_score`: Calculates the Probability x Impact score for threats.
 
-determine_node_colour: Assigns colours to threats based on their PI score.
+- `determine_node_colour`: Assigns colors to threats based on their PI score.
 
-visualise_attack_tree: Creates and visualises the threat landscape graph.
+- `visualise_attack_tree`: Creates and visualizes the threat landscape graph.
 
-References
-OCTAVE-S Framework for Risk Analysis.
+## References
 
-NetworkX documentation.
+- [OCTAVE-S Framework for Risk Analysis](https://www.cert.org/insider-threat/tools/octave-choose.cfm)
 
-Matplotlib documentation.
+- [NetworkX documentation](https://networkx.github.io/documentation/stable/)
+
+- [Matplotlib documentation](https://matplotlib.org/stable/contents.html)
+
+## General Comments
+
+- Ensure the JSON file's structure is consistent with the expected format to avoid errors.
+
+- The script is modular, enabling easy expansion or modifications in the future.
+```
+
+You can copy and paste this Markdown-formatted content into your GitHub repository's README file, and it will display properly on GitHub.
