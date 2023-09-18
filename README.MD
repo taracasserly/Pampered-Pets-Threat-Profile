@@ -25,7 +25,7 @@ pip install networkx matplotlib
 
 ## Running the Tool
 
-Navigate to the directory containing the `THREAT_PROFILE.py` script. Run the following command:
+Navigate to the directory containing the `CurrentState.py` script. Run the following command:
 
 ```bash
 python currentstate.py
