@@ -8,13 +8,14 @@ This tool has been developed to assist 'Pampered Pets' in evaluating their threa
 
 ## Prerequisites
 
-- Python 3.x installed.
+Before using this tool, ensure you have the following prerequisites:
 
-- The following Python libraries: networkx, matplotlib, and json. You can install these using pip:
+- **Python 3.x** installed on your system.
+
+- The following Python libraries: **networkx**, **matplotlib**, and **json**. You can install these libraries using **pip**. Open your terminal or command prompt and run the following command:
 
 ```bash
 pip install networkx matplotlib
-```
 
 ## Setup & Installation
 
