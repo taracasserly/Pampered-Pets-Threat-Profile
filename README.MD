@@ -55,7 +55,7 @@ The tool's core functionalities are broken down into separate functions:
 
 - `visualise_attack_tree`: Creates and visualises the threat landscape graph.
 
-![Alt Text](Output/Current.png)
+![](Output/Current.png)
 
 
 
