@@ -1,0 +1,59 @@
+{
+    "CurrentState": {
+      "FrontDeskComputer": {
+        "Threats": {
+          "Cyber-attacks": {
+            "Probability": 9,
+            "Impact": 8
+          }
+        },
+        "Vulnerabilities": ["Outdated software", "Weak passwords"],
+        "Risk": "HIGH"
+      },
+      "WarehouseComputer": {
+        "Threats": {
+          "Hardware Failure": {
+            "Probability": 4,
+            "Impact": 7
+          },
+          "Cyber-attacks": {
+            "Probability": 9,
+            "Impact": 9
+          }
+        },
+        "Vulnerabilities": ["Old hardware"],
+        "Risk": "HIGH"
+      },
+      "WirelessGateway": {
+        "Threats": {
+          "Unauthorised access": {
+            "Probability": 8,
+            "Impact": 9
+          }
+        },
+        "Vulnerabilities": ["Weak security protocols"],
+        "Risk": "HIGH"
+      },
+      "Inventory": {
+        "Threats": {
+          "Physical Theft": {
+            "Probability": 7,
+            "Impact": 7
+          }
+        },
+        "Vulnerabilities": ["Inadequate surveillance"],
+        "Risk": "MEDIUM"
+      },
+      "SupplyChainInformation": {
+        "Threats": {
+          "Supply Chain Interruption": {
+            "Probability": 6,
+            "Impact": 6
+          }
+        },
+        "Vulnerabilities": ["Single source dependency"],
+        "Risk": "MEDIUM"
+      }
+    }
+  }
+  

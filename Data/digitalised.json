@@ -1,0 +1,71 @@
+{
+    "DigitalisedRecommendations": {
+      "E-commercePlatform": {
+        "Threats": {
+          "Data Breach": {
+            "Probability": 7,
+            "Impact": 8
+          },
+          "System Downtime": {
+            "Probability": 5,
+            "Impact": 7
+          },
+          "Payment Fraud": {
+            "Probability": 6,
+            "Impact": 8
+          }
+        },
+        "Risk": "MEDIUM",
+        "Mitigations": [
+          "SSL certificates",
+          "Data encryption",
+          "Server backup",
+          "Secure payment gateway",
+          "Regular system maintenance"
+        ]
+      },
+      "DigitalMarketing": {
+        "Threats": {
+          "Brand Reputation": {
+            "Probability": 4,
+            "Impact": 6
+          }
+        },
+        "Risk": "LOW",
+        "Mitigations": ["Staff training in digital marketing"]
+      },
+      "SupplyChain": {
+        "Threats": {
+          "Supply Chain Disruption": {
+            "Probability": 4,
+            "Impact": 6
+          },
+          "Quality Compromise": {
+            "Probability": 4,
+            "Impact": 5
+          }
+        },
+        "Risk": "LOW",
+        "Mitigations": [
+          "Diversify supply chain",
+          "Pre-check of international suppliers",
+          "Backup plans"
+        ]
+      },
+      "CustomerFeedback": {
+        "Threats": {
+          "Data Manipulation": {
+            "Probability": 3,
+            "Impact": 4
+          },
+          "Negative Public Reviews": {
+            "Probability": 4,
+            "Impact": 5
+          }
+        },
+        "Risk": "LOW",
+        "Mitigations": ["Secure data storage", "Monitor and respond to feedback"]
+      }
+    }
+  }
+  
