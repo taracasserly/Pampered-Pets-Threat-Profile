@@ -19,7 +19,7 @@ pip install networkx matplotlib
 
 1. Clone or download the repository to your local machine.
 
-2. Navigate to the directory where the tool is located.
+2. Navigate to the directory where the app is located.
 
 3. Ensure the `data/current.json` file is in the correct directory and contains the threat profile in the required JSON format.
 
@@ -28,7 +28,7 @@ pip install networkx matplotlib
 Navigate to the directory containing the `THREAT_PROFILE.py` script. Run the following command:
 
 ```bash
-python THREAT_PROFILE.py
+python currentstate.py
 ```
 
 Upon execution, the tool will read the data from `data/current.json`, process the threat details, and visualize the threat landscape.
