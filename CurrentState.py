@@ -1,5 +1,5 @@
 # Tool developed to help 'Pampered Pets' evaluate their threat profile.
-# Utilizes the OCTAVE-S framework for risk analysis.
+# Utilises the OCTAVE-S framework for risk analysis.
 
 import networkx as nx  # For graph creation
 import matplotlib.pyplot as plt  # For graph visualization
@@ -46,7 +46,7 @@ def determine_node_colour(pi_scores):
     return node_colours
 
 
-# Function to visualize the attack tree graph
+# Function to visualise the attack tree graph
 def visualise_attack_tree(tree, tree_data):
     G = nx.DiGraph()
 
@@ -68,5 +68,5 @@ def visualise_attack_tree(tree, tree_data):
     plt.show()
 
 
-# Visualize the attack tree using tree_data
+# Visualise the attack tree using tree_data
 visualise_attack_tree(tree_data["CurrentState"], tree_data["CurrentState"])
