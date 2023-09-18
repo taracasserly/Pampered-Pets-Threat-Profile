@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-This tool has been developed to assist 'Pampered Pets' in evaluating their threat profile, relying on the principles of the OCTAVE-S framework for risk analysis. The script analyses the threat landscape based on probability and impact scores, then visualizes it in an easy-to-understand format.
+This tool has been developed to assist 'Pampered Pets' in evaluating their threat profile, relying on the principles of the OCTAVE-S framework for risk analysis. The script analyses the threat landscape based on probability and impact scores, then visualises it in an easy-to-understand format.
 
 ## Prerequisites
 
@@ -53,8 +53,9 @@ The tool's core functionalities are broken down into separate functions:
 
 - `determine_node_colour`: Assigns colors to threats based on their PI score.
 
-- `visualise_attack_tree`: Creates and visualizes the threat landscape graph.
+- `visualise_attack_tree`: Creates and visualises the threat landscape graph.
 
+![Alt Text]Output/Current.png
 
 
 
