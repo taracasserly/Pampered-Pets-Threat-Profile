@@ -31,7 +31,7 @@ Navigate to the directory containing the `CurrentState.py` script. Run the follo
 python currentstate.py
 ```
 
-Upon execution, the tool will read the data from `data/current.json`, process the threat details, and visualize the threat landscape.
+Upon execution, the tool will read the data from `data/current.json`, process the threat details, and visualise the threat landscape.
 
 ## Understanding the Output
 
